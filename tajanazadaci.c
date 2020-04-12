@@ -24,15 +24,11 @@ void fja(int a[100][2], int n){
 
 int main(){
     int a[100][2],n;
-    char iylay[100];
 
     scanf("%d",&n);
     for (int i = 0; i < n; i++)
     {
         scanf("%d%d",&a[i][0],&a[i][1]);
-        //iylay[i*3]=a[i][0];
-        //iylay[i*3+1]="x";
-        //iylay[i*3+2]=a[i][1];
     }
     fja(a,n);
 }
