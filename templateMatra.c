@@ -15,12 +15,12 @@ void scanm(int mat[100][100], int* m, int* n){
 }
 
 void printm(int a[100][100], int m, int n){
-    for(int i=0; i<m; i++){
-        for (int j = 0; j < n; j++)
+    for(int i=0; i<n; i++){
+        for (int j = 0; j < m; j++)
         {
-            if(j==0)printf("ł ");
-            printf("%d ",a[i][j]);
-            if(j==n-1)printf("ł\n");
+            if(j==0)printf("|");
+            printf("%d",a[i][j]);
+            if(j==m-1)printf("|\n");
         }
         
     }
